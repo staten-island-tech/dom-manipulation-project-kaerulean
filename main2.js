@@ -56,3 +56,15 @@ function remove(){
 click(); //calls the click function so that it works
 
 remove(); //calls the remove function so that it works
+
+
+/* function remove(){
+    let buttons = document.querySelectorAll("button"); //buttons in list for html
+    buttons.forEach((btn) => {
+        btn.addEventListener("click", function(event){
+            console.log(event.target.parentElement.parentElement);
+        })
+    })
+}
+
+remove() */
